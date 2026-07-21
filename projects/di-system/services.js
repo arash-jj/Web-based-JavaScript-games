@@ -7,7 +7,7 @@ function sleep(ms) {
 // SERVICES
 
 // Database Service
-class DatabaseService {
+export class DatabaseService {
   constructor(config) {
     this.config = config;
     this.connected = false;
@@ -41,7 +41,7 @@ class DatabaseService {
 }
 
 // Email Service
-class EmailService {
+export class EmailService {
   constructor(config, logger) {
     this.apiKey = config.apiKey;
     this.provider = config.provider || "sendgrid";
@@ -66,7 +66,7 @@ class EmailService {
 }
 
 // Logger Service
-class LoggerService {
+export class LoggerService {
   constructor(config) {
     this.level = config.logLevel || "info";
     this.prefix = config.appName || "App";
@@ -92,7 +92,7 @@ class LoggerService {
 }
 
 // Cache Service
-class CacheService {
+export class CacheService {
   constructor(config) {
     this.store = new Map();
     this.defaultTTL = config.cacheTTL || 3600000; // 1 hour
@@ -129,7 +129,7 @@ class CacheService {
 }
 
 // User Repository
-class UserRepository {
+export class UserRepository {
   constructor(database, cache, logger) {
     this.database = database;
     this.cache = cache;
@@ -175,7 +175,7 @@ class UserRepository {
 }
 
 // User Service (Business Logic)
-class UserService {
+export class UserService {
   constructor(userRepository, emailService, logger) {
     this.userRepository = userRepository;
     this.emailService = emailService;
@@ -214,7 +214,7 @@ class UserService {
 }
 
 // Application Bootstrap
-class Application {
+export class Application {
   constructor(container) {
     this.container = container;
     this.services = {};
