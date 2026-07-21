@@ -83,7 +83,8 @@ A comprehensive collection of **web-based mini projects** designed to help devel
 | 21 | **Promise Scheduler** | Algorithm | Intermediate | ✅ | [→](projects/promise-scheduler/) |
 | 22 | **State Machine** | Algorithm | Intermediate | ✅ | [→](projects/state-machine) |
 | 23 | **Dependency Injection Container** | Algorithm | Intermediate | ✅ | [→](projects/di-system/) |
-| 23 | **Template Engine (AST)** | Algorithm | Intermediate | ⏳ | [→](projects/) |
+| 24 | **Template Engine (AST)** | Algorithm | Intermediate | ⏳ | [→](projects/) |
+| 25 | **Advance Template Engine (AST)** | Algorithm | Advance | ⏳ | [→](projects/) |
 
 > **📌 To add a new project:** See [➕ Add New Project](#-add-new-project) section below
 
