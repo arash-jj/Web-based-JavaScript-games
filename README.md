@@ -82,7 +82,7 @@ A comprehensive collection of **web-based mini projects** designed to help devel
 | 20 | **Priority Queue** | Algorithm | Intermediate | ✅ | [→](projects/priority-queue/) |
 | 21 | **Promise Scheduler** | Algorithm | Intermediate | ✅ | [→](projects/promise-scheduler/) |
 | 22 | **State Machine** | Algorithm | Intermediate | ✅ | [→](projects/state-machine) |
-| 23 | **Dependency Injection Container** | Algorithm | Intermediate | ⏳ | [→](projects/) |
+| 23 | **Dependency Injection Container** | Algorithm | Intermediate | ✅ | [→](projects/di-system/) |
 | 23 | **Template Engine (AST)** | Algorithm | Intermediate | ⏳ | [→](projects/) |
 
 > **📌 To add a new project:** See [➕ Add New Project](#-add-new-project) section below
@@ -171,6 +171,7 @@ Build upon your fundamentals:
 19. **Priority Queue** - Priority Queue (Binary Heap)
 20. **Promise Scheduler** - Promise Scheduler (Concurrency Control)
 21. **State Machine** - State Machine (Finite State)
+22. **Dependency Container System** - Dependency Injection Container
 
 ### 🔴 Advanced Level
 Challenge yourself: 
