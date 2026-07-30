@@ -19,7 +19,7 @@ export class Parser {
 
     return {
       type: "Program",
-      body,
+      body: body,
     };
   }
 
@@ -30,9 +30,10 @@ export class Parser {
       case "TEXT":
         this.position++;
         return {
-          type: "TEXT",
+          type: "Text",
           value: token.value,
         };
+
       case "VARIABLE":
         this.position++;
         return {
@@ -57,7 +58,7 @@ export class Parser {
 
     const body = [];
 
-    // Parse body IF_END
+    // Parse body until IF_END
     while (
       this.position < this.tokens.length &&
       this.current().type !== "IF_END"
@@ -66,17 +67,16 @@ export class Parser {
     }
 
     // Consume IF_END
-
     if (this.current()?.type === "IF_END") {
       this.position++;
     } else {
-      throw new Error("EXpected {{/if}}");
+      throw new Error("Expected {{/if}}");
     }
 
     return {
       type: "IfBlock",
       condition: startToken.condition,
-      body,
+      body: body,
     };
   }
 
@@ -92,43 +92,45 @@ export class Parser {
       this.current().type !== "EACH_END"
     ) {
       body.push(this.parseStatement());
-
-      // Consume EACH_END
-      if (this.current()?.type === "EACH_END") {
-        this.position++;
-      } else {
-        throw new Error("Expected {{/each}}");
-      }
     }
+
+    // Consume EACH_END
+    if (this.current()?.type === "EACH_END") {
+      this.position++;
+    } else {
+      throw new Error("Expected {{/each}}");
+    }
+
     return {
       type: "EachBlock",
       iterable: startToken.iterable,
       body: body,
     };
   }
+
   current() {
     return this.tokens[this.position];
   }
 }
 
 // DEMO: AST Visualization
-function demoParser() {
-  const template = `
-        <h1>Hello {{name}}!</h1>
-        {{#if isActive}}
-            <p>Active user</p>
-        {{/if}}
-    `;
+// function demoParser() {
+//   const template = `
+//         <h1>Hello {{name}}!</h1>
+//         {{#if isActive}}
+//             <p>Active user</p>
+//         {{/if}}
+//     `;
 
-  const lexer = new Lexer(template);
-  const tokens = lexer.tokenize();
-  const parser = new Parser(tokens);
-  const ast = parser.parse();
+//   const lexer = new Lexer(template);
+//   const tokens = lexer.tokenize();
+//   const parser = new Parser(tokens);
+//   const ast = parser.parse();
 
-  console.log("AST:");
-  console.log(JSON.stringify(ast, null, 2));
+//   console.log("AST:");
+//   console.log(JSON.stringify(ast, null, 2));
 
-  return ast;
-}
+//   return ast;
+// }
 
-demoParser();
+// demoParser();
