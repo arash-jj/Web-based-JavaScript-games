@@ -7,6 +7,7 @@
 This project is a hands‑on exploration of how template engines (like Mustache, Handlebars, or EJS) work under the hood. Instead of using a library, you build a complete compiler pipeline: **lexer → parser → code generator**. The engine parses templates with variable interpolation, conditionals (`#if`), loops (`#each`), and caches compiled functions for reuse.
 
 It’s a perfect learning resource for understanding:
+
 - How a compiler is structured
 - Tokenisation and abstract syntax trees (AST)
 - Code generation and dynamic function creation
@@ -50,7 +51,9 @@ console.log(html); // <h1>Hello World</h1>
 You can also render directly:
 
 ```js
-const html = engine.render(`<p>{{ user.name }}</p>`, { user: { name: "John" } });
+const html = engine.render(`<p>{{ user.name }}</p>`, {
+  user: { name: "John" },
+});
 ```
 
 ### Full Example
@@ -78,7 +81,7 @@ const render = engine.compile(template);
 const data = {
   name: "Alice",
   isActive: true,
-  hobbies: ["Reading", "Cycling", "Coding"]
+  hobbies: ["Reading", "Cycling", "Coding"],
 };
 
 console.log(render(data));
@@ -111,7 +114,7 @@ template-engine/
 ## 🚀 Run Locally
 
 1. Clone or download the project.
-2. Open `index.html` in your browser (for frontend) **or** run with Node.js / Bun:
+2. run with Node.js / Bun:
    ```bash
    bun/node main.js
    ```
