@@ -1,4 +1,10 @@
-function debounce(fn, delay, options = {}) {
+/**
+ * Note: this is a simple implementation 
+ * of debounce logic, if you are looking for challenge
+ * you can try managing race conditions and add Cancel & Flush to the logic
+ */
+
+export function debounce(fn, delay, options = {}) {
   let timer = null;
   const { leading = false, trailing = true } = options;
 
