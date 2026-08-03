@@ -86,7 +86,7 @@ A comprehensive collection of **web-based mini projects** designed to help devel
 | 24 | **Template Engine (AST)** | Algorithm | Intermediate | ✅ | [→](projects/template-engine) |
 | 25 | **Advance Template Engine (AST)** | Algorithm | Advance | ⏳ | [→](projects/) |
 | 26 | **Smart Search & Scroll** | Algorithm | Advance | ✅ | [→](projects/smart-search-and-scroll/) |
-| 27 | **Global Message Bus** | Algorithm | Advance | ⏳ | [→](projects/) |
+| 27 | **Global Message Bus** | Algorithm | Advance | ✅ | [→](projects/event-emitter/) |
 | 28 | **Form Validation Pipeline** | Algorithm | Advance | ⏳ | [→](projects/) |
 | 29 | **Background Image Processor** | Algorithm | Advance | ⏳ | [→](projects/) |
 | 30 | **API Response Cache** | Algorithm | Advance | ⏳ | [→](projects/) |
