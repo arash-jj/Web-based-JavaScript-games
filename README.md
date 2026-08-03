@@ -85,7 +85,7 @@ A comprehensive collection of **web-based mini projects** designed to help devel
 | 23 | **Dependency Injection Container** | Algorithm | Intermediate | ✅ | [→](projects/di-system/) |
 | 24 | **Template Engine (AST)** | Algorithm | Intermediate | ✅ | [→](projects/template-engine) |
 | 25 | **Advance Template Engine (AST)** | Algorithm | Advance | ⏳ | [→](projects/) |
-| 26 | **Smart Search & Scroll** | Algorithm | Advance | ⏳| [→](projects/smart-search-and-scroll/) |
+| 26 | **Smart Search & Scroll** | Algorithm | Advance | ✅ | [→](projects/smart-search-and-scroll/) |
 | 27 | **Global Message Bus** | Algorithm | Advance | ✅ | [→](projects/event-emitter/) |
 | 28 | **Form Validation Pipeline** | Algorithm | Advance | ⏳ | [→](projects/) |
 | 29 | **Background Image Processor** | Algorithm | Advance | ⏳ | [→](projects/) |
