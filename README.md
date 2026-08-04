@@ -87,7 +87,7 @@ A comprehensive collection of **web-based mini projects** designed to help devel
 | 25 | **Advance Template Engine (AST)** | Algorithm | Advance | ⏳ | [→](projects/) |
 | 26 | **Smart Search & Scroll** | Algorithm | Advance | ✅ | [→](projects/smart-search-and-scroll/) |
 | 27 | **Global Message Bus** | Algorithm | Advance | ✅ | [→](projects/event-emitter/) |
-| 28 | **Form Validation Pipeline** | Algorithm | Advance | ⏳ | [→](projects/) |
+| 28 | **Form Validation Pipeline** | Algorithm | Advance | ✅| [→](projects/form-validation/) |
 | 29 | **Background Image Processor** | Algorithm | Advance | ⏳ | [→](projects/) |
 | 30 | **API Response Cache** | Algorithm | Advance | ⏳ | [→](projects/) |
 | 31 | **Unified Query Runner** | Algorithm | Advance | ⏳ | [→](projects/) |
@@ -179,6 +179,10 @@ Build upon your fundamentals:
 20. **Promise Scheduler** - Promise Scheduler (Concurrency Control)
 21. **State Machine** - State Machine (Finite State)
 22. **Dependency Container System** - Dependency Injection Container
+23. **Template Engine (AST)** - Lexer, Parser, CodeGen
+24. **Smart Search & Scroll** - Throttle & Debounce (Closures)
+25. **Global Message Bus** - Event Emitter (Pub‑Sub)
+26. **Form validation** - Middleware / Pipeline Pattern
 
 ### 🔴 Advanced Level
 Challenge yourself: 
