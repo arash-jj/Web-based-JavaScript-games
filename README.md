@@ -89,7 +89,7 @@ A comprehensive collection of **web-based mini projects** designed to help devel
 | 27 | **Global Message Bus** | Algorithm | Advance | ✅ | [→](projects/event-emitter/) |
 | 28 | **Form Validation Pipeline** | Algorithm | Advance | ✅| [→](projects/form-validation/) |
 | 29 | **Background Image Processor** | Algorithm | Advance | ✅ | [→](projects/background-image-processor/) |
-| 30 | **API Response Cache** | Algorithm | Advance | ⏳ | [→](projects/) |
+| 30 | **API Response Cache** | Algorithm | Advance | ✅ | [→](projects/api-response-cache/) |
 | 31 | **Unified Query Runner** | Algorithm | Advance | ⏳ | [→](projects/) |
 
 > **📌 To add a new project:** See [➕ Add New Project](#-add-new-project) section below
@@ -184,6 +184,7 @@ Build upon your fundamentals:
 25. **Global Message Bus** - Event Emitter (Pub‑Sub)
 26. **Form validation** - Middleware / Pipeline Pattern
 27. **Background Image Processor** - Job Queue (with Priorities & Retries) 
+28. **API Response Cache** - Caching Layer (Multi‑Strategy) 
 
 ### 🔴 Advanced Level
 Challenge yourself: 
