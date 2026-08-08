@@ -267,13 +267,13 @@ Tips for modifying colors, difficulty, or features.
 
 ## 📁 Project Structure
 
-\`\`\`
+
 project-name/
 ├── index.html    # Main HTML structure
 ├── style.css     # Styling and animations
 ├── script.js     # Game logic / functionality
 └── README.md     # This file
-\`\`\`
+
 
 ## 🚀 Run Locally
 
