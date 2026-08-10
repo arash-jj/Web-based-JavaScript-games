@@ -92,6 +92,12 @@ A comprehensive collection of **web-based mini projects** designed to help devel
 | 30 | **API Response Cache** | Algorithm | Advance | ✅ | [→](projects/api-response-cache/) |
 | 31 | **Unified Query Runner** | Algorithm | Advance | ✅ | [→](projects/query-builder/) |
 
+### ⚙️ Deep JavaScript Foundations (the bedrock)
+
+| # | Project | Type | Difficulty | Status | View |
+|---|---------|------|------------|--------|------|
+| 1 | **Custom `bind`/`call`/`apply` polyfills** | Core concepts | Advance | ⏳ | [→](projects/) |
+
 > **📌 To add a new project:** See [➕ Add New Project](#-add-new-project) section below
 
 ---
