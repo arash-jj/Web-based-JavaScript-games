@@ -97,7 +97,8 @@ A comprehensive collection of **web-based mini projects** designed to help devel
 | # | Project | Type | Difficulty | Status | View |
 |---|---------|------|------------|--------|------|
 | 1 | **Custom `bind`/`call`/`apply` polyfills** | Core concepts | Advance | ✅ | [→](projects/costum-call-bind-apply/) |
-| 2 | **`Object.create` polyfill - Class‑less inheritance** | Core concepts | Advance | ⏳ | [→](projects/) |
+| 2 | **`Object.create` polyfill - Class‑less inheritance** | Core concepts | Advance | ✅ | [→](projects/prototype-chain-inheritance-new/) |
+| 3 | **Custom Execution Order Visualizer** | Core concepts | Advance | ✅ | [→](projects/event-loop/) |
 
 > **📌 To add a new project:** See [➕ Add New Project](#-add-new-project) section below
 
