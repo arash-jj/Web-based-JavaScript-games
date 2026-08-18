@@ -99,6 +99,7 @@ A comprehensive collection of **web-based mini projects** designed to help devel
 | 1 | **Custom `bind`/`call`/`apply` polyfills** | Core concepts | Advance | ✅ | [→](projects/costum-call-bind-apply/) |
 | 2 | **`Object.create` polyfill - Class‑less inheritance** | Core concepts | Advance | ✅ | [→](projects/prototype-chain-inheritance-new/) |
 | 3 | **Custom Execution Order Visualizer** | Core concepts | Advance | ✅ | [→](projects/event-loop/) |
+| 4 | **Custom lazy‑evaluation** | Core concepts | Advance | ✅ | [→](projects/custom-lazy‑evaluation/) |
 
 > **📌 To add a new project:** See [➕ Add New Project](#-add-new-project) section below
 
