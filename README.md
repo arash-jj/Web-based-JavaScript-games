@@ -92,6 +92,7 @@ A comprehensive collection of **web-based mini projects** designed to help devel
 | 29 | **Background Image Processor** | Algorithm | Advance | ✅ | [→](projects/background-image-processor/) |
 | 30 | **API Response Cache** | Algorithm | Advance | ✅ | [→](projects/api-response-cache/) |
 | 31 | **Unified Query Runner** | Algorithm | Advance | ✅ | [→](projects/query-builder/) |
+| 32 | **Physic Engine** | Engine | Advance | ⏳  | [→](projects/) |
 
 ### ⚙️ Deep JavaScript Foundations (the bedrock)
 
