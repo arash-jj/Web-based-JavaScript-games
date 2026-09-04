@@ -103,6 +103,12 @@ A comprehensive collection of **web-based mini projects** designed to help devel
 | 3 | **Custom Execution Order Visualizer** | Core concepts | Advance | ✅ | [→](projects/event-loop/) |
 | 4 | **Custom lazy‑evaluation** | Core concepts | Advance | ✅ | [→](projects/custom-lazy‑evaluation/) |
 
+### 🛍 Data Structures & Algorithms – Framework Edition
+
+| #   | Project               | Type           | Difficulty | Description                                       | Status | View           |
+| --- | --------------------- | -------------- | ---------- | ------------------------------------------------- | ------ | -------------- |
+| 1   | **Undo/redo manager** | Data Structure | Advance    | using a command stack (like a mini‑Redux history) | ⏳     | [→](projects/) |
+
 > **📌 To add a new project:** See [➕ Add New Project](#-add-new-project) section below
 
 ---
