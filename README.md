@@ -107,7 +107,7 @@ A comprehensive collection of **web-based mini projects** designed to help devel
 
 | #   | Project               | Type           | Difficulty | Description                                       | Status | View           |
 | --- | --------------------- | -------------- | ---------- | ------------------------------------------------- | ------ | -------------- |
-| 1   | **Undo/redo manager** | Data Structure | Advance    | using a command stack (like a mini‑Redux history) | ⏳     | [→](projects/) |
+| 1   | **Undo/redo manager** | Data Structure | Advance    | using a command stack (like a mini‑Redux history) | ✅     | [→](projects/redo-undo-manager) |
 
 > **📌 To add a new project:** See [➕ Add New Project](#-add-new-project) section below
 
